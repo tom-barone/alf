@@ -1,0 +1,5 @@
+# The files in these directories are pretty big, so we won't copy them in as part of the docker build.
+# We'll just mount them directly using volumes when running the container.
+# [https://docs.docker.com/engine/storage/volumes]
+indata/
+infiles/
